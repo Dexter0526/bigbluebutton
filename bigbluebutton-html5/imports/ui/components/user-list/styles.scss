@@ -34,7 +34,7 @@
  * ==========
  */
 %flex-column {
-  display: flex;
+  display: none;
   flex-flow: column;
 }
 
@@ -43,7 +43,7 @@
 }
 
 %list-item {
-  display: flex;
+  display: none;
   flex-flow: row;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -114,7 +114,7 @@
 .participants,
 .messages {
   flex-grow: 0;
-  display: flex;
+  display: none;
   flex-flow: column;
   flex-shrink: 0;
 }

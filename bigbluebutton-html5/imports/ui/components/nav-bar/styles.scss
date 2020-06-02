@@ -40,7 +40,9 @@
   width: 70%;
   flex: 1;
 }
-
+.left{
+  display: none;
+}
 .presentationTitle {
   font-weight: 200;
   color: var(--color-white);
@@ -89,7 +91,4 @@
       opacity: .75;
     }
   }
-}
-
-.btnSettings {
 }

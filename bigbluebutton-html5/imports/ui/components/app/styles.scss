@@ -129,11 +129,13 @@
 }
 
 .userlistPad {
+  display: none;
   background-color: var(--color-off-white);
   width: var(--userlist-handle-width);
 }
 
 .compact {
+  display: none;
   flex-basis: 4.6rem;
 }
 

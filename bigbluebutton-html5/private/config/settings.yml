@@ -140,7 +140,7 @@ public:
     lines: 2
     time: 5000
   chat:
-    enabled: true
+    enabled: false
     min_message_length: 1
     max_message_length: 5000
     grouping_messages_window: 10000
@@ -168,7 +168,7 @@ public:
       showControls: true
       rtl: false
   layout:
-    autoSwapLayout: false
+    autoSwapLayout: true
     hidePresentation: false
     webcamsDefaultPlacement: "top"
   media:
@@ -181,7 +181,7 @@ public:
     relayOnlyOnReconnect: false
   presentation:
     allowDownloadable: true
-    defaultPresentationFile: default.pdf
+    defaultPresentationFile:
     panZoomThrottle: 32
     uploadEndpoint: "/bigbluebutton/presentation/upload"
     uploadSizeMin: 0
